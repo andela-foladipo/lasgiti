@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Lasgiti</string>
+    <string name="loading_profiles_msg">Loading profiles…</string>
+    <string name="loading_more_profiles_msg">Loading more profiles…</string>
+    <string name="msg_share_profile">SHARE</string>
+    <string name="profiles_activity_loading_failed_msg">Failed to retrieve profiles.</string>
+    <string name="profiles_activity_retry_loading_msg">Retry</string>
+    <string name="default_anonymous_user">Anonymous</string>
+    <string name="single_profile_user_id_qualifier_msg">Username: </string>
+    <string name="single_profile_github_website_profile_url_qualifier_msg">URL: </string>
 </resources>
