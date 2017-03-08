@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fcca411028f175f034d209ca24a694c46a88eb03">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.1.0_52ee1c4a9a6bbb813b40a5ab0f847d4e2790778a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_c67f3a337659fa41eb30999f3e8fd8831ce28006.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_4652f15a4e1ad41a1c72a1124488152b61282393.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_01dcdaca9444a7eecd1c0300cd55a5a27fe73698.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_225714f616a8a7bc1c807f5a7c206d2189f21aba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_76f24b87c8069a9439bfa96fd67a530c5569d69e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="536f64f93222b3d004c884c73ddd8e416108da11">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.1.0_55fe9ac4c4074f0f91961b3e45514357c7db5c3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_0e550583007e374d199871ac0da270c889bdcdfd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="03881e5c9573abec8007769ffb348356233854c7">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.1.0_bc4f967a5cbdaa14365831250be709d51a6e2529.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_5f373d2a1c062f04bb0c41bf5f2432177eba59f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_dc0afa10344c89e6f53fac76d0b95356117d09a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.1.0_f48736a7b87f21ee0f9b09aea6e5a581cb2a8978.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_824f1edea04cc9514439944921e0fd9b0f986ce8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/usr/local/android-sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_a25ff9e22989b4dbbe346599ae35bfff00b079f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_c5a58d87234852ba900502318f4877342fd152a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_14231c24e8e9998dfb92e0d481516657ede32e85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_715c3a053c4dba51aaaa621208622898ea65ff12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e0ac906e73b66677ebf3962f225bf403843a85a5">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/instant-run_e73c58bf331cefea44cc7bb6f119a58071ac39a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_f75611fff57b1378ed69054a7501776b5a4e3bf9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_666e3a6f96260af0195de4b3fb6ec7cafa67f4d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_bda84057726521cf7b4352eeaa5e19c0976e6de5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b8a1048a1127beb355a77d65dcc446bfa3ca93d">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.1.0_575b4413476b94f8fa1a1e0528853cc3f113b7ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_7525710bb919e21c322693e7bcf1b7869b811887.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_b818f6a358b62d15124b25e547d9f6618c8fcae4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8167ec6e6963d89ccf56071df218418744f5cfc9">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_5017d1bcf10e7298d7292025d3eddad79cd0ea88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_695a26fd733800c62014b21526389619be30a91a.jar" />
+    </item>
+
+</items>
