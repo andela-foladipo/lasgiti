@@ -52,7 +52,7 @@ public class SingleProfileActivity extends AppCompatActivity {
         this.setTitle("Profile of: " + userId);
 
         ProgressBar progressBar = (ProgressBar) findViewById(R.id.single_profile_loading_detailed_profile_progress_bar);
-        progressBar.getIndeterminateDrawable().setColorFilter(Color.parseColor("#e93ad4"), PorterDuff.Mode.SRC_IN);
+        progressBar.getIndeterminateDrawable().setColorFilter(Color.parseColor("#880e4f"), PorterDuff.Mode.SRC_IN);
 
         profilePicture = (SimpleDraweeView) findViewById(R.id.single_profile_picture);
         profilePicture.setImageURI(profile.getString("profilePicture"));

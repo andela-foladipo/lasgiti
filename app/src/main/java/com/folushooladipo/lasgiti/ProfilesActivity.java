@@ -50,7 +50,7 @@ public class ProfilesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_profiles);
 
         ProgressBar progressBar = (ProgressBar) findViewById(R.id.profiles_activity_loading_progress_bar);
-        progressBar.getIndeterminateDrawable().setColorFilter(Color.parseColor("#e93ad4"), PorterDuff.Mode.SRC_IN);
+        progressBar.getIndeterminateDrawable().setColorFilter(Color.parseColor("#880e4f"), PorterDuff.Mode.SRC_IN);
 
         // IMPORTANT: This is only incremented after a successful retrieval of profiles.
         pageNumber = 1;
