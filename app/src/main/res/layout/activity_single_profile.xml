@@ -149,7 +149,6 @@
                     android:layout_height="match_parent"
                     android:visibility="gone">
 
-                    <!-- TODO: Make the email clickable, which opens the mail client. -->
                     <TableRow
                         android:id="@+id/single_profile_email_container"
                         android:layout_width="match_parent"
@@ -163,6 +162,7 @@
                             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                             android:maxWidth="100dp" />
 
+                        <!-- Would have made this clickable too, but sometimes it can be unspecified. -->
                         <TextView
                             android:id="@+id/single_profile_email"
                             android:layout_width="wrap_content"
