@@ -41,19 +41,20 @@
                 android:id="@+id/single_profile_user_id_container">
 
                 <TextView
+                    android:id="@+id/single_profile_user_id_qualifier"
                     android:text="@string/single_profile_user_id_qualifier_msg"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/single_profile_user_id_qualifier"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
                 <TextView
-                    android:text="@string/default_anonymous_user"
+                    android:id="@+id/single_profile_user_id"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/single_profile_user_id"
                     android:layout_margin="5dp"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                    android:text="@string/default_anonymous_user"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textIsSelectable="true" />
             </TableRow>
 
             <TableRow
@@ -62,20 +63,65 @@
                 android:id="@+id/single_profile_github_website_profile_url_container">
 
                 <TextView
-                    android:text="@string/single_profile_github_website_profile_url_qualifier_msg"
+                    android:id="@+id/single_profile_github_website_profile_url_qualifier"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/single_profile_github_website_profile_url_qualifier"
+                    android:text="@string/single_profile_github_website_profile_url_qualifier_msg"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
                 <TextView
+                    android:id="@+id/single_profile_github_website_profile_url"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/single_profile_github_website_profile_url"
                     android:layout_margin="5dp"
                     android:text="@string/default_anonymous_user"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textColor="@color/deepBlue"/>
+                    android:textColor="@color/deepBlue"
+                    android:textIsSelectable="true" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/single_profile_email_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="@string/single_profile_email_qualifier_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/single_profile_email_qualifier"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+                <TextView
+                    android:id="@+id/single_profile_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textIsSelectable="true" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/single_profile_full_name_container">
+
+                <TextView
+                    android:id="@+id/single_profile_full_name_qualifier"
+                    android:text="@string/single_profile_full_name_qualifier_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                <TextView
+                    android:id="@+id/single_profile_full_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/default_anonymous_user"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textIsSelectable="true" />
+
             </TableRow>
 
             <Button
