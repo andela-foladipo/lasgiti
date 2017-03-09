@@ -138,7 +138,7 @@
                         android:drawableEnd="@drawable/ic_action_refresh"
                         android:text="@string/default_retry_msg"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                        android:textColor="#fdfdfd" />
+                        android:textColor="@color/mediumWhite" />
 
                 </TableRow>
 
@@ -282,7 +282,7 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:text="@string/msg_share_profile"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textColor="#fdfdfd" />
+                android:textColor="@color/mediumWhite" />
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
