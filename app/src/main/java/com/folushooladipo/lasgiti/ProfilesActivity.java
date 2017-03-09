@@ -115,8 +115,6 @@ public class ProfilesActivity extends AppCompatActivity {
                     args.putString("profilePicture", finalProfilePicUrl);
                     args.putString("websiteProfileUrl", profile.optString("html_url"));
                     args.putString("searchApiProfileUrl", profile.optString("url"));
-                    args.putString("followersUrl", profile.optString("followers_url"));
-                    args.putString("reposUrl", profile.optString("repos_url"));
                     Intent intent = new Intent(getApplicationContext(), SingleProfileActivity.class);
                     intent.putExtra("profile", args);
                     startActivity(intent);
