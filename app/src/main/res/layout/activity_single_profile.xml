@@ -24,7 +24,8 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center_horizontal"
-            android:id="@+id/single_profile_container">
+            android:id="@+id/single_profile_container"
+            android:padding="10dp">
 
             <com.facebook.drawee.view.SimpleDraweeView
                 android:layout_width="120dp"
@@ -45,7 +46,8 @@
                     android:text="@string/single_profile_user_id_qualifier_msg"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:maxWidth="100dp" />
 
                 <TextView
                     android:id="@+id/single_profile_user_id"
@@ -67,7 +69,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/single_profile_github_website_profile_url_qualifier_msg"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:maxWidth="100dp" />
 
                 <TextView
                     android:id="@+id/single_profile_github_website_profile_url"
@@ -80,49 +83,191 @@
                     android:textIsSelectable="true" />
             </TableRow>
 
-            <TableRow
-                android:id="@+id/single_profile_email_container"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <TextView
-                    android:text="@string/single_profile_email_qualifier_msg"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/single_profile_email_qualifier"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
-
-                <TextView
-                    android:id="@+id/single_profile_email"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textIsSelectable="true" />
-            </TableRow>
-
-            <TableRow
+            <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/single_profile_full_name_container">
+                android:id="@+id/single_profile_everything_detailed_profile_container">
 
-                <TextView
-                    android:id="@+id/single_profile_full_name_qualifier"
-                    android:text="@string/single_profile_full_name_qualifier_msg"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-
-                <TextView
-                    android:id="@+id/single_profile_full_name"
+                <TableRow
+                    android:id="@+id/single_profile_loading_detailed_profile_container"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="@string/default_anonymous_user"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textIsSelectable="true" />
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical">
 
-            </TableRow>
+                    <ProgressBar
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/single_profile_loading_detailed_profile_progress_bar"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginEnd="5dp" />
+
+                    <TextView
+                        android:text="@string/single_profile_loading_detailed_profile_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/single_profile_loading_detailed_profile"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginEnd="5dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/single_profile_load_detailed_profile_failed_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:text="@string/single_profile_load_detailed_profile_failed_qualifier_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:id="@+id/single_profile_load_detailed_profile_failed_qualifier" />
+
+                    <Button
+                        android:id="@+id/single_profile_load_detailed_profile_failed_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:padding="5dp"
+                        android:background="@drawable/btn_colored_background_round_edges"
+                        android:drawableRight="@drawable/ic_action_refresh"
+                        android:drawableEnd="@drawable/ic_action_refresh"
+                        android:text="@string/default_retry_msg"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="#fdfdfd" />
+
+                </TableRow>
+
+                <LinearLayout
+                    android:id="@+id/single_profile_profile_details_container"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+
+                    <!-- TODO: Make the email clickable, which opens the mail client. -->
+                    <TableRow
+                        android:id="@+id/single_profile_email_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:text="@string/single_profile_email_qualifier_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/single_profile_email_qualifier"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:maxWidth="100dp" />
+
+                        <TextView
+                            android:id="@+id/single_profile_email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/default_not_specified"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textIsSelectable="true" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/single_profile_full_name_container">
+
+                        <TextView
+                            android:id="@+id/single_profile_full_name_qualifier"
+                            android:text="@string/single_profile_full_name_qualifier_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:maxWidth="100dp" />
+
+                        <TextView
+                            android:id="@+id/single_profile_full_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/default_anonymous_user"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textIsSelectable="true" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/single_profile_number_of_repos_container">
+
+                        <TextView
+                            android:id="@+id/single_profile_number_of_repos_qualifier"
+                            android:text="@string/single_profile_number_of_repos_qualifier_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:maxWidth="100dp" />
+
+                        <TextView
+                            android:id="@+id/single_profile_number_of_repos"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/default_zero"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textIsSelectable="true" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/single_profile_number_of_followers_container">
+                        <TextView
+                            android:id="@+id/single_profile_number_of_followers_qualifier"
+                            android:text="@string/single_profile_number_of_followers_qualifier_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:maxWidth="100dp" />
+
+                        <TextView
+                            android:id="@+id/single_profile_number_of_followers"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/default_zero"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                            android:textIsSelectable="true" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/single_profile_is_hireable_container">
+
+                        <TextView
+                            android:id="@+id/single_profile_is_hireable_qualifier"
+                            android:text="@string/single_profile_is_hireable_qualifier_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:maxWidth="100dp" />
+
+                        <TextView
+                            android:id="@+id/single_profile_is_hireable"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/default_not_specified"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    </TableRow>
+
+                </LinearLayout>
+
+            </LinearLayout>
 
             <Button
                 android:id="@+id/single_profile_share_btn"
