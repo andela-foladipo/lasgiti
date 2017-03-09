@@ -1,11 +1,8 @@
 package com.folushooladipo.lasgiti;
 
 import android.content.Intent;
-import android.graphics.Canvas;
 import android.graphics.Color;
-import android.graphics.ColorFilter;
 import android.graphics.PorterDuff;
-import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -42,7 +39,6 @@ public class ProfilesActivity extends AppCompatActivity {
     private LinearLayout loadingContainer;
     private TextView loadingView;
     private LinearLayout loadingFailedContainer;
-    private RecyclerView recyclerView;
     private LinearLayoutManager layoutManager;
     private RecyclerView.Adapter adapter;
     private ArrayList<JSONObject> profilesDataset = new ArrayList<JSONObject>();
@@ -64,7 +60,7 @@ public class ProfilesActivity extends AppCompatActivity {
         loadingContainer = (LinearLayout) findViewById(R.id.profiles_activity_loading_container);
         loadingView = (TextView) findViewById(R.id.profiles_activity_loading);
         loadingFailedContainer = (LinearLayout) findViewById(R.id.profiles_activity_loading_failed_container);
-        recyclerView = (RecyclerView) findViewById(R.id.profiles_activity_profiles_container);
+        final RecyclerView recyclerView = (RecyclerView) findViewById(R.id.profiles_activity_profiles_container);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         adapter = new ProfilesAdapter();
@@ -74,7 +70,7 @@ public class ProfilesActivity extends AppCompatActivity {
         fetchProfilesTask = new FetchGitHubProfilesTask(url);
         fetchProfilesTask.execute();
 
-        Button retryLoading = (Button) findViewById(R.id.profiles_activity_retry_loading);
+        final Button retryLoading = (Button) findViewById(R.id.profiles_activity_retry_loading);
         retryLoading.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -105,6 +101,9 @@ public class ProfilesActivity extends AppCompatActivity {
                         if (!isLoadingProfiles) {
                             if (numberOfProfilesFetched < TOTAL_AVAILABLE_PROFILES
                                     && numberOfProfilesFetched < Utilities.GITHUB_SEARCH_RESULTS_LIMIT) {
+                                if (loadingFailedContainer.getVisibility() == View.VISIBLE) {
+                                    loadingContainer.setVisibility(View.GONE);
+                                }
                                 isLoadingProfiles = true;
                                 loadProfiles(pageNumber);
                             }
@@ -201,7 +200,7 @@ public class ProfilesActivity extends AppCompatActivity {
 
         @Override
         protected String doInBackground(Void... voids) {
-            String result = "";
+            String result;
             try {
                 result = Utilities.downloadUrl(urlToQuery);
             }
