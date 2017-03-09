@@ -11,6 +11,8 @@ import java.net.URL;
 import javax.net.ssl.HttpsURLConnection;
 
 class Utilities {
+    static int GITHUB_SEARCH_RESULTS_LIMIT = 1000;
+
     static String downloadUrl(String myUrl) throws IOException {
         InputStream inStream = null;
         try {
@@ -27,7 +29,6 @@ class Utilities {
 
         }
         catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
             throw new IOException();
         }
         finally {
