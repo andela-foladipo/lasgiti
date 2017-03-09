@@ -4,12 +4,20 @@
     <string name="loading_more_profiles_msg">Loading more profiles…</string>
     <string name="msg_share_profile">SHARE</string>
     <string name="profiles_activity_loading_failed_msg">Failed to retrieve profiles.</string>
-    <string name="generic_retry_msg">Retry</string>
+    <string name="default_retry_msg">Retry</string>
     <string name="default_anonymous_user">Anonymous</string>
+    <string name="default_not_specified">(Not specified)</string>
+    <string name="default_yes">Yes</string>
+    <string name="default_no">No</string>
+    <string name="default_none">None</string>
+    <string name="default_zero">0</string>
     <string name="single_profile_user_id_qualifier_msg">Username: </string>
     <string name="single_profile_github_website_profile_url_qualifier_msg">URL: </string>
     <string name="single_profile_email_qualifier_msg">Email:</string>
     <string name="single_profile_full_name_qualifier_msg">Full name:</string>
     <string name="single_profile_loading_detailed_profile_msg">Loading profile details…</string>
     <string name="single_profile_load_detailed_profile_failed_qualifier_msg">Failed to load profile details.</string>
+    <string name="single_profile_number_of_repos_qualifier_msg"># of repos:</string>
+    <string name="single_profile_number_of_followers_qualifier_msg"># of followers:</string>
+    <string name="single_profile_is_hireable_qualifier_msg">Available for hire:</string>
 </resources>
