@@ -155,7 +155,7 @@ public class ProfilesActivity extends AppCompatActivity {
         protected String doInBackground(Void... voids) {
             String result = "";
             try {
-                result = downloadUrl(urlToQuery);
+                result = Utilities.downloadUrl(urlToQuery);
             }
             catch (IOException e) {
                 e.printStackTrace();
@@ -192,43 +192,6 @@ public class ProfilesActivity extends AppCompatActivity {
                 }
             }
         }
-    }
-
-    private String downloadUrl(String myUrl) throws IOException {
-        InputStream inStream = null;
-        try {
-            URL url = new URL(myUrl);
-            HttpsURLConnection conn = (HttpsURLConnection) url.openConnection();
-            conn.setReadTimeout(10000);
-            conn.setConnectTimeout(5000);
-            conn.setRequestMethod("GET");
-            conn.setDoInput(true);
-            conn.connect();
-            inStream = conn.getInputStream();
-
-            return readIt(inStream);
-
-        }
-        catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-            throw new IOException();
-        }
-        finally {
-            if (inStream != null) {
-                inStream.close();
-            }
-        }
-    }
-
-    private String readIt(InputStream stream) throws IOException {
-        String result = "";
-        BufferedReader reader = new BufferedReader(new InputStreamReader(stream, "UTF-8"));
-        String line;
-        while ((line = reader.readLine()) != null) {
-            result += line;
-        }
-        reader.close();
-        return result;
     }
 
     private void loadMoreProfiles() {
