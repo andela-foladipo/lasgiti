@@ -41,8 +41,6 @@ public class SingleProfileActivity extends AppCompatActivity {
     private TextView numberOfFollowersView;
     private TextView isHireableView;
 
-    // TODO: Call cancel on detailedProfileTask in onDestroy() and such.
-    // TODO: Test for what happens when detailedProfileTask is running and onStop() or onPause() happens.
     // TODO: Move this code to onStart()?
     @Override
     protected void onCreate(Bundle savedInstanceState) {
