@@ -34,10 +34,9 @@ import javax.net.ssl.HttpsURLConnection;
 public class ProfilesActivity extends AppCompatActivity {
     private int pageNumber;
     private final String GITHUB_SEARCH_API = "https://api.github.com/search/users";
-    private final String GITHUB_ACCESS_TOKEN = "access_token=9648de68001d99e7727675764eff4095135f6ab5&";
     private final String GITHUB_SEARCH_API_DEFAULT_QUERY_STRING = "q=location:lagos+type:user+language:java&order=desc&sort=repositories&per_page=50&";
     private final String GITHUB_SEARCH_API_DEFAULT_URL = GITHUB_SEARCH_API +
-            "?" + GITHUB_ACCESS_TOKEN + GITHUB_SEARCH_API_DEFAULT_QUERY_STRING;
+            "?access_token=" + SensitiveData.GITHUB_ACCESS_TOKEN + GITHUB_SEARCH_API_DEFAULT_QUERY_STRING;
 
     private LinearLayout loadingContainer;
     private LinearLayout loadingFailedContainer;
