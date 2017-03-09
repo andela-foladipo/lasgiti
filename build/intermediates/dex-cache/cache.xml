@@ -48,21 +48,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/usr/local/android-sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_a25ff9e22989b4dbbe346599ae35bfff00b079f6.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
         <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_225714f616a8a7bc1c807f5a7c206d2189f21aba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/usr/local/android-sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_a25ff9e22989b4dbbe346599ae35bfff00b079f6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -237,21 +237,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_bda84057726521cf7b4352eeaa5e19c0976e6de5.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/folusho/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
         <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_824f1edea04cc9514439944921e0fd9b0f986ce8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_bda84057726521cf7b4352eeaa5e19c0976e6de5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -336,6 +336,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0ed5ce1f577e9c64cc904e3f36b594fb825c6aa">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/instant-run_e73c58bf331cefea44cc7bb6f119a58071ac39a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -390,15 +399,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="fcca411028f175f034d209ca24a694c46a88eb03">
-        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.1.0_52ee1c4a9a6bbb813b40a5ab0f847d4e2790778a.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
@@ -414,6 +414,24 @@
         revision="25.0.1"
         sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
         <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_b818f6a358b62d15124b25e547d9f6618c8fcae4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fcca411028f175f034d209ca24a694c46a88eb03">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.1.0_52ee1c4a9a6bbb813b40a5ab0f847d4e2790778a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="15dff2c646f5db9bdbc97ffcddd66eae34e7c398">
+        <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_5017d1bcf10e7298d7292025d3eddad79cd0ea88.jar" />
     </item>
     <item
         is-multidex="false"

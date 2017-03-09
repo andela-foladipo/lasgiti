@@ -7,27 +7,36 @@
     tools:context="com.folushooladipo.lasgiti.ProfilesActivity"
     android:orientation="vertical">
 
-    <android.support.v7.widget.RecyclerView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/profiles_activity_profiles_container"
-        android:scrollbars="vertical"
-        android:fadeScrollbars="true"/>
+        android:orientation="vertical"
+        android:layout_weight="15">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profiles_activity_profiles_container"
+            android:scrollbars="vertical"
+            android:fadeScrollbars="true" />
+    </LinearLayout>
+
 
     <LinearLayout
         android:id="@+id/profiles_activity_loading_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_weight="1">
 
         <ProgressBar
-            android:id="@+id/profiles_activity_loading_progressbar"
+            android:id="@+id/profiles_activity_loading_progress_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:indeterminate="true" />
 
         <TextView
-            android:id="@+id/profiles_activity_loading_text"
+            android:id="@+id/profiles_activity_loading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/loading_profiles_msg"
@@ -42,7 +51,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:visibility="gone">
+        android:visibility="gone"
+        android:layout_weight="1">
 
         <TextView
             android:id="@+id/profiles_activity_loading_failed"
@@ -64,7 +74,7 @@
             android:drawableEnd="@drawable/ic_action_refresh"
             android:text="@string/default_retry_msg"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#fdfdfd" />
+            android:textColor="@color/mediumWhite" />
 
     </LinearLayout>
 
