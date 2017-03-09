@@ -62,7 +62,7 @@
             android:background="@drawable/btn_colored_background_round_edges"
             android:drawableRight="@drawable/ic_action_refresh"
             android:drawableEnd="@drawable/ic_action_refresh"
-            android:text="@string/generic_retry_msg"
+            android:text="@string/default_retry_msg"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#fdfdfd" />
 
