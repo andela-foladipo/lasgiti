@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_weight="15">
+        android:layout_weight="14">
 
         <android.support.v7.widget.RecyclerView
             android:layout_width="match_parent"
@@ -19,6 +19,7 @@
             android:id="@+id/profiles_activity_profiles_container"
             android:scrollbars="vertical"
             android:fadeScrollbars="true" />
+
     </LinearLayout>
 
 
