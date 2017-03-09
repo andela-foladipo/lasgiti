@@ -160,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="e0ac906e73b66677ebf3962f225bf403843a85a5">
+        sha1="c0ed5ce1f577e9c64cc904e3f36b594fb825c6aa">
         <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/instant-run_e73c58bf331cefea44cc7bb6f119a58071ac39a7.jar" />
     </item>
     <item
@@ -223,7 +223,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="8167ec6e6963d89ccf56071df218418744f5cfc9">
+        sha1="15dff2c646f5db9bdbc97ffcddd66eae34e7c398">
         <dex dex="/home/folusho/AndroidStudioProjects/Lasgiti/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_5017d1bcf10e7298d7292025d3eddad79cd0ea88.jar" />
     </item>
     <item

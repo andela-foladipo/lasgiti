@@ -19,23 +19,15 @@ import com.facebook.drawee.view.SimpleDraweeView;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
-import java.net.URL;
 import java.util.ArrayList;
-
-import javax.net.ssl.HttpsURLConnection;
 
 public class ProfilesActivity extends AppCompatActivity {
     private int pageNumber;
     private final String GITHUB_SEARCH_API = "https://api.github.com/search/users";
     private final String GITHUB_SEARCH_API_DEFAULT_QUERY_STRING = "q=location:lagos+type:user+language:java&order=desc&sort=repositories&per_page=50&";
     private final String GITHUB_SEARCH_API_DEFAULT_URL = GITHUB_SEARCH_API +
-            "?access_token=" + SensitiveData.GITHUB_ACCESS_TOKEN + GITHUB_SEARCH_API_DEFAULT_QUERY_STRING;
+            "?access_token=" + SensitiveData.GITHUB_ACCESS_TOKEN + "&" + GITHUB_SEARCH_API_DEFAULT_QUERY_STRING;
 
     private LinearLayout loadingContainer;
     private LinearLayout loadingFailedContainer;
