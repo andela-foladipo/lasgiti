@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     android:minHeight="70dp"
     android:orientation="horizontal"
-    android:id="@+id/profile_summary_container">
+    android:id="@+id/profile_summary_container"
+    android:background="@drawable/white_light_grey_gradient_background_sharp_corners">
 
     <com.facebook.drawee.view.SimpleDraweeView
         android:id="@+id/small_display_picture"
