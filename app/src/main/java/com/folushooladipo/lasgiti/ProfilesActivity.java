@@ -46,7 +46,6 @@ public class ProfilesActivity extends AppCompatActivity {
         loadingContainer = (LinearLayout) findViewById(R.id.profiles_activity_loading_container);
         loadingFailedContainer = (LinearLayout) findViewById(R.id.profiles_activity_loading_failed_container);
         recyclerView = (RecyclerView) findViewById(R.id.profiles_activity_profiles_container);
-//        recyclerView.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         adapter = new ProfilesAdapter();
@@ -62,7 +61,7 @@ public class ProfilesActivity extends AppCompatActivity {
             public void onClick(View view) {
                 loadingFailedContainer.setVisibility(View.GONE);
                 loadingContainer.setVisibility(View.VISIBLE);
-                loadMoreProfiles();
+                loadProfiles(pageNumber);
 
             }
         });
@@ -115,7 +114,7 @@ public class ProfilesActivity extends AppCompatActivity {
             holder.profilePicture.setImageURI(profilePicUrl);
         }
 
-        // Return the size of your dataset (invoked by the layout manager)
+        // Return the size of the dataset (invoked by the layout manager).
         @Override
         public int getItemCount() {
             return profilesDataset.size();
@@ -186,11 +185,10 @@ public class ProfilesActivity extends AppCompatActivity {
         }
     }
 
-    private void loadMoreProfiles() {
-        String url = GITHUB_SEARCH_API_DEFAULT_URL + "page=" + pageNumber + "&";
+    private void loadProfiles(int page) {
+        String url = GITHUB_SEARCH_API_DEFAULT_URL + "page=" + page + "&";
         fetchProfilesTask = new FetchGitHubProfilesTask(url);
         fetchProfilesTask.execute();
-
     }
 
 }
