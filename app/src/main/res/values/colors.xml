@@ -5,4 +5,6 @@
     <color name="colorAccent">#df8ace</color>
     <color name="darkGrey">#6e6e6e</color>
     <color name="deepBlue">#3559e9</color>
+    <color name="mediumWhite">#fdfdfd</color>
+    <color name="pureWhite">#ffffff</color>
 </resources>
